@@ -46,8 +46,9 @@ function calc()
             
             
         }
-    } else{
+    } else
+    {
         result.style = "color:red";
-         result.innerText = "no valid data";
+        result.innerText = "no valid data";
     }
 }
